@@ -17,16 +17,12 @@
 
 ### TravelVisit List
 
----
-
 ## <!-- img -->
 
 - ...
 - ...
 
 #### Technologies
-
----
 
 - HTML
 - CSS
@@ -36,16 +32,12 @@
 
 ### Ads Manager
 
----
-
 ## <!-- img -->
 
 - ...
 - ...
 
 #### Technologies
-
----
 
 - HTML
 - CSS
@@ -54,16 +46,12 @@
 
 ### Login UI
 
----
-
 ## <!-- img -->
 
 - ...
 - ...
 
 #### Technologies
-
----
 
 - HTML
 - CSS
@@ -72,16 +60,12 @@
 
 ### Blog Cards
 
----
-
 ## <!-- img -->
 
 - ...
 - ...
 
 #### Technologies
-
----
 
 - HTML
 - CSS
