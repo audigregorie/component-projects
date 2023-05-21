@@ -8,10 +8,10 @@
 
 ## Table of Contents
 
-*⚡️ Visit List
-*⚡️ Ads Manager
-*⚡️ Login UI
-*⚡️ Blog Cards
+- ⚡️ Visit List
+- ⚡️ Ads Manager
+- ⚡️ Login UI
+- ⚡️ Blog Cards
 
 ---
 
@@ -23,8 +23,6 @@
 
 - ...
 - ...
-
----
 
 #### Technologies
 
@@ -45,8 +43,6 @@
 - ...
 - ...
 
----
-
 #### Technologies
 
 ---
@@ -65,8 +61,6 @@
 - ...
 - ...
 
----
-
 #### Technologies
 
 ---
@@ -84,8 +78,6 @@
 
 - ...
 - ...
-
----
 
 #### Technologies
 
