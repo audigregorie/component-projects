@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Login UI</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--FORM-->
+      <form>
+        <button class="btn btn_google" type="button">
+          <img src="images/google.png" alt="Google Logo" />
+          Log in with Google
+        </button>
+        <small>or</small>
+        <div class="form_setup">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="form_setup">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Password" />
+        </div>
+        <div class="checkbox_container">
+          <input type="checkbox" id="remember" />
+          <label for="remember">Remember Me</label>
+          <a href="#">Forgot Password</a>
+        </div>
+        <button class="btn btn_login" type="button">Log In</button>
+        <small class="small-signup"
+          >Don't have an account? <a href="#">Sign Up</a></small
+        >
+      </form>
+
+      <!-- FEATURES -->
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-code"></i>
+          <h3>Development</h3>
+          <p>
+            A modern and clean design system for development fast and powerful
+            web interfaces
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-gift"></i>
+          <h3>Features</h3>
+          <p>
+            A modern and clean design system for development fast and powerful
+            web interfaces
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-edit"></i>
+          <h3>Updates</h3>
+          <p>
+            A modern and clean design system for development fast and powerful
+            web interfaces
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
