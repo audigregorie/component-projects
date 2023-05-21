@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200;600&display=swap');
+
+/* GLOBALS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c223b;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #27334f;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(12, 16, 31, 0.4);
+  padding: 50px;
+  margin: auto;
+  width: 1000px;
+
+  @media (max-width: 768px) {
+    padding: 25px;
+  }
+}
+
+/* TABLE */
+table {
+  color: #e2e2e2;
+  padding: 10px;
+  width: 100%;
+
+  th {
+    padding: 15px;
+    text-align: left;
+  }
+
+  tbody {
+    tr {
+      background-color: #1c223b;
+
+      &:hover {
+        background-color: #151b31;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+      }
+      &.priority-200 td:first-of-type {
+        border-left: 5px solid #9c7c64;
+      }
+      &.priority-300 td:first-of-type {
+        border-left: 5px solid #5c8cdc;
+      }
+      &.priority-600 td:first-of-type {
+        border-left: 5px solid #40c587;
+      }
+      &.priority-200 td .fa-circle {
+        color: 5px solid #9c7c64;
+      }
+      &.priority-300 td .fa-circle {
+        color: #5c8cdc;
+      }
+      &.priority-600 td .fa-circle {
+        color: #40c587;
+      }
+      &:hover td .delete {
+        opacity: 1;
+      }
+
+      td {
+        padding: 15px;
+        text-align: left;
+
+        &:first-of-type {
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+        }
+        &:last-of-type {
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+          text-align: center;
+        }
+        &:nth-of-type(4) {
+          @media (max-width: 768px) {
+            text-align: center;
+          }
+        }
+        & .fa-circle {
+          transform: scale(0.5);
+        }
+        & .delete {
+          cursor: pointer;
+          background-color: #242c4c;
+          color: #909090;
+          border-radius: 2px;
+          border: 0;
+          font-size: 16px;
+          padding: 5px 10px;
+          opacity: 0;
+
+          @media (max-width: 768px) {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
