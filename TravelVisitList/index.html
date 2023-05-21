@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Visit List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main id="mainContent__container">
+      <!-- INPUT SECTION -->
+      <section id="section__container--left">
+        <div id="fullForm__container">
+          <header class="heading__container">
+            <h1 class="heading1">TRAVEL PROFILE</h1>
+          </header>
+          <section class="subheading__container">
+            <h2 class="heading2">Create a list of places you wish to visit</h2>
+          </section>
+          <section class="form__container">
+            <form action="/Cities" class="form__cities">
+              <div class="form__inputContainer">
+                <input
+                  type="text"
+                  name="cities"
+                  placeholder="Enter a city/country"
+                  class="form__input"
+                />
+              </div>
+              <div class="form__buttonContainer">
+                <button class="form__button">Submit</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </section>
+      <!-- LIST SECTION -->
+      <section id="section__container--right">
+        <div class="list__container">
+          <ul class="list"></ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
